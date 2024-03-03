@@ -4,20 +4,40 @@ I developed this API to facilitate secure user authentication through Login and 
 
 ## Installation
 
-Create Virtual enviroment.
-```bash
-python -m venv env
-```
-Use the enviroment
-```bash
-# on windows
-. ./env/Script/activate
+1. Clone the repository.
 
-# on Linux
-. ./env/bin/activate
-```
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependancies.
+    ```bash
+    git clone https://github.com/igyogap/PYTHON-API.git
+    ```
 
-```bash
-pip install -r req.txt
-```
+2. Change into the project directory.
+
+    ```bash
+    cd your-project
+    ```
+
+3. Create a virtual environment.
+
+    ```bash
+    python -m venv env
+    ```
+
+4. Activate the virtual environment.
+
+    - On Windows:
+
+        ```bash
+        .\env\Scripts\activate
+        ```
+
+    - On Linux:
+
+        ```bash
+        source env/bin/activate
+        ```
+
+5. Install dependencies.
+
+    ```bash
+    pip install -r req.txt
+    ```
