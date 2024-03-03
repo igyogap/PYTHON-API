@@ -41,3 +41,10 @@ I developed this API to facilitate secure user authentication through Login and 
     ```bash
     pip install -r req.txt
     ```
+
+## Usage
+
+Running the application is as simple as executing python app.py in the terminal from your project folder.
+```bash
+python app.py
+```
